@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos de Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🍕 Pizza Promises 🍕</h1>
+
+        <div class="formulario">
+            <h2>Haz tu propio pedido</h2>
+            <div class="ingredientes-lista" id="ingredientes-seleccionados">
+                <!-- Aquí se añadirán los ingredientes -->
+                 
+            </div>
+            <div class="form-row">
+                <input type="text" id="nuevo-ingrediente" placeholder="Añade un ingrediente...">
+                <button id="btn-agregar">Agregar ingrediente</button>
+            </div>
+            <div class="form-row">
+                <button id="btn-pedir">Hacer pedido personalizado</button>
+            </div>
+        </div>
+
+        <div class="pizza-buttons">
+            <button id="btn-pepperoni">Pedir Pizza de Pepperoni</button>
+            <button id="btn-suprema">Pedir Pizza Suprema</button>
+            <button id="btn-hawaiiana">Pedir Pizza Hawaiiana</button>
+        </div>
+
+        <div class="pizza-container" id="pizzas-container">
+            <!-- Aquí se mostrarán las pizzas -->
+        </div>
+    </div>
+    <script src="promesas.js"></script>
+</body>
+</html>
